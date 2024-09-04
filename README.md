@@ -38,3 +38,6 @@ Siga os passos abaixo para configurar o projeto:
 
    ```bash
    npm run test
+   
+## Executando testes
+![teste](https://github.com/user-attachments/assets/5d15c4be-bc11-4262-ac59-e14b3f1fbeca)
