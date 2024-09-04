@@ -1,27 +1,40 @@
-# JEST Unit Tests
+# Gerenciador de Tarefas
 
-## GitHub Actions
+Este projeto implementa um **Gerenciador de Tarefas** em JavaScript com funcionalidades para adicionar, remover, atualizar, marcar como concluída, e gerenciar tarefas de acordo com tags, prioridade, e datas. Além disso, o projeto inclui uma suíte de testes utilizando **Jest**, com cobertura completa das funcionalidades principais.
 
-[![Build and Tests](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml)
+## Funcionalidades
 
-## SonarCloud
+- **Adicionar tarefas**: Adiciona tarefas com descrições, datas, prioridades, e tags.
+- **Remover tarefas**: Remove uma tarefa por ID.
+- **Atualizar tarefas**: Atualiza dados da tarefa como descrição, prioridade e tags.
+- **Marcar tarefas como concluídas**: Possibilita marcar tarefas como feitas.
+- **Listar tarefas**: Lista todas as tarefas, tarefas concluídas, pendentes, por prioridade ou tags.
+- **Ordenação**: Ordena tarefas por data ou prioridade.
+- **Gerenciar tags**: Adiciona ou remove tags das tarefas.
+- **Gerenciar prioridade**: Define e ajusta a prioridade das tarefas.
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
+## Tecnologias Utilizadas
 
-## Getting Started
+- **JavaScript (ES6)**: Linguagem utilizada para implementar a classe `GerenciadorDeTarefas`.
+- **Jest**: Framework de testes utilizado para garantir a funcionalidade e confiabilidade do código.
 
-In order to execute this project you must follow the steps below:
+## Pré-requisitos
 
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
+Antes de começar, você precisará ter o [Node.js](https://nodejs.org/en/) instalado em sua máquina.
 
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
+## Instalação
 
-## Project Structure
-</br>
-<ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
-</ul>
+Siga os passos abaixo para configurar o projeto:
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/luigimilanez/unit-tests-jest.git
+2. Baixe as dependências do código:
+
+   ```bash
+   npm install
+3. Execute os testes:
+
+   ```bash
+   npm run test
